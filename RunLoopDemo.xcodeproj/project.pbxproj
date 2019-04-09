@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60139176225381570077F24D /* MJMonitorRunloop.m in Sources */ = {isa = PBXBuildFile; fileRef = 60139175225381570077F24D /* MJMonitorRunloop.m */; };
+		604901BA225C84D7005976E7 /* MXRCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 604901B9225C84D7005976E7 /* MXRCallStack.m */; };
+		604901BD225C88A6005976E7 /* MJCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 604901BC225C88A6005976E7 /* MJCallStack.m */; };
 		605EC18D224C682300855FB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605EC18C224C682300855FB6 /* AppDelegate.m */; };
 		605EC190224C682300855FB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605EC18F224C682300855FB6 /* ViewController.m */; };
 		605EC193224C682300855FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605EC191224C682300855FB6 /* Main.storyboard */; };
@@ -27,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60139174225381570077F24D /* MJMonitorRunloop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJMonitorRunloop.h; sourceTree = "<group>"; };
+		60139175225381570077F24D /* MJMonitorRunloop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJMonitorRunloop.m; sourceTree = "<group>"; };
+		604901B8225C84D7005976E7 /* MXRCallStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRCallStack.h; sourceTree = "<group>"; };
+		604901B9225C84D7005976E7 /* MXRCallStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRCallStack.m; sourceTree = "<group>"; };
+		604901BB225C88A6005976E7 /* MJCallStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJCallStack.h; sourceTree = "<group>"; };
+		604901BC225C88A6005976E7 /* MJCallStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJCallStack.m; sourceTree = "<group>"; };
 		605EC188224C682300855FB6 /* RunLoopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunLoopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		605EC18B224C682300855FB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		605EC18C224C682300855FB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,6 +94,12 @@
 				605EC18C224C682300855FB6 /* AppDelegate.m */,
 				605EC18E224C682300855FB6 /* ViewController.h */,
 				605EC18F224C682300855FB6 /* ViewController.m */,
+				60139174225381570077F24D /* MJMonitorRunloop.h */,
+				60139175225381570077F24D /* MJMonitorRunloop.m */,
+				604901BB225C88A6005976E7 /* MJCallStack.h */,
+				604901BC225C88A6005976E7 /* MJCallStack.m */,
+				604901B8225C84D7005976E7 /* MXRCallStack.h */,
+				604901B9225C84D7005976E7 /* MXRCallStack.m */,
 				605EC191224C682300855FB6 /* Main.storyboard */,
 				605EC194224C682500855FB6 /* Assets.xcassets */,
 				605EC196224C682500855FB6 /* LaunchScreen.storyboard */,
@@ -204,8 +219,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				605EC190224C682300855FB6 /* ViewController.m in Sources */,
+				604901BD225C88A6005976E7 /* MJCallStack.m in Sources */,
 				605EC19B224C682500855FB6 /* main.m in Sources */,
 				605EC18D224C682300855FB6 /* AppDelegate.m in Sources */,
+				604901BA225C84D7005976E7 /* MXRCallStack.m in Sources */,
+				60139176225381570077F24D /* MJMonitorRunloop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
