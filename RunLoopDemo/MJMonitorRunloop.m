@@ -8,7 +8,7 @@
 
 #import "MJMonitorRunloop.h"
 #import <execinfo.h>
-#import "MXRCallStack.h"
+#import "MJCallStack.h"
 
 // minimum
 static const NSInteger MXRMonitorRunloopMinOneStandstillMillisecond = 20;
@@ -125,7 +125,7 @@ static void runLoopObserverCallBack(CFRunLoopObserverRef observer, CFRunLoopActi
                     [strongSelf logStack];
                     [strongSelf printLogTrace];
                     
-                    NSString *backtrace = [MXRCallStack mxr_backtraceOfMainThread];
+                    NSString *backtrace = [MJCallStack mj_backtraceOfMainThread];
                     NSLog(@"++++%@",backtrace);
                     
                     if (strongSelf.callbackWhenStandStill) {
